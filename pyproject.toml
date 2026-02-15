@@ -1,0 +1,14 @@
+[project]
+name = "my-tools"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Brett Viren", email = "brett.viren@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = ["pyscript_to_package @ git+https://github.com/brettviren/pyscript-to-package", "proxy_web_ssh @ git+https://github.com/brettviren/proxy-web-ssh"]
+
+[build-system]
+requires = ["uv_build>=0.9.13,<0.10.0"]
+build-backend = "uv_build"
