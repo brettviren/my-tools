@@ -7,27 +7,27 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
-  # mine
-  "pyscript_to_package @ git+https://github.com/brettviren/pyscript-to-package",
-  "proxy_web_ssh @ git+https://github.com/brettviren/proxy-web-ssh",
-  "herbstluft-herbie @ git+https://github.com/brettviren/herbie",
-  "ampersand @ git+https://github.com/brettviren/ampersand",
-  "miageru @ git+https://github.com/brettviren/miageru",
-  "myougiden @ git+https://github.com/brettviren/myougiden",
-  "titome @ git+https://github.com/brettviren/titome",
-  "rephile @ git+https://github.com/brettviren/rephile",
-  "dune_people @ git+https://github.com/brettviren/dune-people",
-  "wget_spider @ git+https://github.com/brettviren/wget-spider",
-  "imp @ git+https://github.com/brettviren/imp",
-  "passdb @ git+https://github.com/brettviren/passdb",
-  "vrdj @ git+https://github.com/brettviren/vrdj",
-  "browser_sync @ git+https://github.com/brettviren/browser-sync",
-  "bpm_plot @ git+https://github.com/brettviren/bpm-plot",
+# mine
+"pyscript_to_package @ git+https://github.com/brettviren/pyscript-to-package",
+"proxy_web_ssh @ git+https://github.com/brettviren/proxy-web-ssh",
+"herbstluft-herbie @ git+https://github.com/brettviren/herbie",
+"ampersand @ git+https://github.com/brettviren/ampersand",
+"miageru @ git+https://github.com/brettviren/miageru",
+"myougiden @ git+https://github.com/brettviren/myougiden",
+"titome @ git+https://github.com/brettviren/titome",
+"rephile @ git+https://github.com/brettviren/rephile",
+"dune_people @ git+https://github.com/brettviren/dune-people",
+"wget_spider @ git+https://github.com/brettviren/wget-spider",
+"imp @ git+https://github.com/brettviren/imp",
+"passdb @ git+https://github.com/brettviren/passdb",
+"vrdj @ git+https://github.com/brettviren/vrdj",
+"browser_sync @ git+https://github.com/brettviren/browser-sync",
+"bpm_plot @ git+https://github.com/brettviren/bpm-plot",
 
-  # other's
-  "barpyrus @ git+https://github.com/t-wissmann/barpyrus",
-
+# other's
+"barpyrus @ git+https://github.com/t-wissmann/barpyrus",
 ]
+
 [project.readme]
 file = "README.org"
 content-type = "text/plain"
@@ -35,5 +35,21 @@ content-type = "text/plain"
 [build-system]
 requires = ["uv_build>=0.9.13,<0.10.0"]
 build-backend = "uv_build"
+
 [project.scripts]
 my-tools = "my_tools:main"
+pyscript-to-package = "pyscript_to_package.main:migrate"
+herbie = "herbie.__main__:main"
+proxy-web-ssh = "proxy_web_ssh.main:main"
+miageru = "miageru.__main__:cli"
+ampersand = "ampersand.__main__:main"
+myougiden = "myougiden.__main__:main"
+titome = "titome.main:main"
+rephile = "rephile.__main__:main"
+dune-people = "dune_people.__main__:cli"
+wget-spider = "wget_spider.__main__:cli"
+imp = "imp.__main__:cli"
+passdb = "passdb.cli:cli"
+browser-sync = "browser_sync.main:main"
+bpm-plot = "bpm_plot.main:main"
+
