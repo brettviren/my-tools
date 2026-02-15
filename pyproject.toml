@@ -23,6 +23,7 @@ dependencies = [
 "vrdj @ git+https://github.com/brettviren/vrdj",
 "browser_sync @ git+https://github.com/brettviren/browser-sync",
 "bpm_plot @ git+https://github.com/brettviren/bpm-plot",
+"pyscript @ git+https://github.com/brettviren/pyscript",
 
 # other's
 "barpyrus @ git+https://github.com/t-wissmann/barpyrus",
@@ -52,4 +53,5 @@ imp = "imp.__main__:cli"
 passdb = "passdb.cli:cli"
 browser-sync = "browser_sync.main:main"
 bpm-plot = "bpm_plot.main:main"
+pyscript = "pyscript.main:main"
 
