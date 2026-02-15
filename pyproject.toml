@@ -21,6 +21,8 @@ dependencies = [
   "imp @ git+https://github.com/brettviren/imp",
   "passdb @ git+https://github.com/brettviren/passdb",
   "vrdj @ git+https://github.com/brettviren/vrdj",
+  "browser_sync @ git+https://github.com/brettviren/browser-sync",
+  "bpm_plot @ git+https://github.com/brettviren/bpm-plot",
 
   # other's
   "barpyrus @ git+https://github.com/t-wissmann/barpyrus",
