@@ -7,10 +7,10 @@ authors = [
 ]
 requires-python = ">=3.12"
 dependencies = [
+  # mine
   "pyscript_to_package @ git+https://github.com/brettviren/pyscript-to-package",
   "proxy_web_ssh @ git+https://github.com/brettviren/proxy-web-ssh",
   "herbstluft-herbie @ git+https://github.com/brettviren/herbie",
-  "barpyrus @ git+https://github.com/t-wissmann/barpyrus",
   "ampersand @ git+https://github.com/brettviren/ampersand",
   "miageru @ git+https://github.com/brettviren/miageru",
   "myougiden @ git+https://github.com/brettviren/myougiden",
@@ -20,6 +20,11 @@ dependencies = [
   "wget_spider @ git+https://github.com/brettviren/wget-spider",
   "imp @ git+https://github.com/brettviren/imp",
   "passdb @ git+https://github.com/brettviren/passdb",
+  "vrdj @ git+https://github.com/brettviren/vrdj",
+
+  # other's
+  "barpyrus @ git+https://github.com/t-wissmann/barpyrus",
+
 ]
 [project.readme]
 file = "README.org"
