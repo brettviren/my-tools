@@ -9,17 +9,17 @@ requires-python = ">=3.12"
 dependencies = [
   "pyscript_to_package @ git+https://github.com/brettviren/pyscript-to-package",
   "proxy_web_ssh @ git+https://github.com/brettviren/proxy-web-ssh",
-  "git+https://github.com/brettviren/herbie",
-  "git+https://github.com/brettviren/ampersand",
-  "git+https://github.com/brettviren/miageru",
-  "git+https://github.com/brettviren/myougiden",
-  "git+https://github.com/brettviren/barpyrus",
-  "git+https://github.com/brettviren/titome",
-  "git+https://github.com/brettviren/rephile",
-  "git+https://github.com/brettviren/dune-people",
-  "git+https://github.com/brettviren/wget-spider",
-  "git+https://github.com/brettviren/imp",
-  "git+https://github.com/brettviren/passdb",
+  "herbie @ git+https://github.com/brettviren/herbie",
+  "barpyrus @ git+https://github.com/t-wissmann/barpyrus",
+  "ampersand @ git+https://github.com/brettviren/ampersand",
+  "miageru @ git+https://github.com/brettviren/miageru",
+  "myougiden @ git+https://github.com/brettviren/myougiden",
+  "titome @ git+https://github.com/brettviren/titome",
+  "rephile @ git+https://github.com/brettviren/rephile",
+  "dune_people @ git+https://github.com/brettviren/dune-people",
+  "wget_spider @ git+https://github.com/brettviren/wget-spider",
+  "imp @ git+https://github.com/brettviren/imp",
+  "passdb @ git+https://github.com/brettviren/passdb",
 ]
 [project.readme]
 file = "README.org"
