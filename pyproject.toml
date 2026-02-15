@@ -9,7 +9,7 @@ requires-python = ">=3.12"
 dependencies = [
   "pyscript_to_package @ git+https://github.com/brettviren/pyscript-to-package",
   "proxy_web_ssh @ git+https://github.com/brettviren/proxy-web-ssh",
-  "herbie @ git+https://github.com/brettviren/herbie",
+  "herbstluft-herbie @ git+https://github.com/brettviren/herbie",
   "barpyrus @ git+https://github.com/t-wissmann/barpyrus",
   "ampersand @ git+https://github.com/brettviren/ampersand",
   "miageru @ git+https://github.com/brettviren/miageru",
