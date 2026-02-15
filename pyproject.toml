@@ -1,13 +1,29 @@
 [project]
 name = "my-tools"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
+description = "An umbrella of various tools I use"
 authors = [
     { name = "Brett Viren", email = "brett.viren@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = ["pyscript_to_package @ git+https://github.com/brettviren/pyscript-to-package", "proxy_web_ssh @ git+https://github.com/brettviren/proxy-web-ssh"]
+dependencies = [
+  "pyscript_to_package @ git+https://github.com/brettviren/pyscript-to-package",
+  "proxy_web_ssh @ git+https://github.com/brettviren/proxy-web-ssh",
+  "git+https://github.com/brettviren/herbie",
+  "git+https://github.com/brettviren/ampersand",
+  "git+https://github.com/brettviren/miageru",
+  "git+https://github.com/brettviren/myougiden",
+  "git+https://github.com/brettviren/barpyrus",
+  "git+https://github.com/brettviren/titome",
+  "git+https://github.com/brettviren/rephile",
+  "git+https://github.com/brettviren/dune-people",
+  "git+https://github.com/brettviren/wget-spider",
+  "git+https://github.com/brettviren/imp",
+  "git+https://github.com/brettviren/passdb",
+]
+[project.readme]
+file = "README.org"
+content-type = "text/org"
 
 [build-system]
 requires = ["uv_build>=0.9.13,<0.10.0"]

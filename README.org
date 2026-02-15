@@ -1,0 +1,7 @@
+#+title: ☔ my-tools 🧰
+
+This collects various Python tools I use, many I wrote, to have one-stop installation.
+
+#+begin_example
+uv tool install git+https://github.com/brettviren/my-tools
+#+end_example
